@@ -1,0 +1,8 @@
+../bsw/mcal/can/mcal_can.c:10:6:HAL_CAN_RxFifo0MsgPendingCallback	48	static
+../bsw/mcal/can/mcal_can.c:22:6:can_polling	96	static
+../bsw/mcal/can/mcal_can.c:50:6:can_start	48	static
+../bsw/mcal/can/mcal_can.c:69:6:can_stop	8	static
+../bsw/mcal/can/mcal_can.c:75:6:can_send	16	static
+../bsw/mcal/can/mcal_can.c:81:21:can_receive	0	static
+../bsw/mcal/can/mcal_can.c:86:9:can_rx_available	0	static
+../bsw/mcal/can/mcal_can.c:90:6:can_process_next	0	static

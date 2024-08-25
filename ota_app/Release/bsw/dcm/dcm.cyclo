@@ -1,0 +1,7 @@
+../bsw/dcm/dcm.c:13:6:DCM_Proc_Init	1
+../bsw/dcm/dcm.c:18:13:ECU_reset_Handler	1
+../bsw/dcm/dcm.c:25:13:DiagSess_Ctl_Handler	1
+../bsw/dcm/dcm.c:28:13:Request_Download_Handler	1
+../bsw/dcm/dcm.c:36:13:Transfer_Data_Handler	1
+../bsw/dcm/dcm.c:45:13:Transfer_Exit_Handler	1
+../bsw/dcm/dcm.c:54:13:Check_Memory_Handler	1

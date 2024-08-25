@@ -1,0 +1,2 @@
+../bsw/mcal/com/com_proc.c:11:6:COM_Proc_Init	8	static
+../bsw/mcal/com/com_proc.c:15:6:COM_Proc_1ms	16	static

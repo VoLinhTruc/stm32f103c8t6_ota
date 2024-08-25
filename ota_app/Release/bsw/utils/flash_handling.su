@@ -1,0 +1,2 @@
+../bsw/utils/flash_handling.c:12:10:get_data_from_address	0	static
+../bsw/utils/flash_handling.c:18:10:set_data_to_address	0	static

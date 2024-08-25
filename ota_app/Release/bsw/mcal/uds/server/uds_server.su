@@ -1,0 +1,2 @@
+../bsw/mcal/uds/server/uds_server.c:14:6:tp_recv_handler	24	static
+../bsw/mcal/uds/server/uds_server.c:110:6:UDS_Srv_Init	0	static

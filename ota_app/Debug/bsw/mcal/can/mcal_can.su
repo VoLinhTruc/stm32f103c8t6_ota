@@ -1,0 +1,7 @@
+../bsw/mcal/can/mcal_can.c:10:6:HAL_CAN_RxFifo0MsgPendingCallback	56	static
+../bsw/mcal/can/mcal_can.c:21:6:can_start	48	static
+../bsw/mcal/can/mcal_can.c:40:6:can_stop	8	static
+../bsw/mcal/can/mcal_can.c:46:6:can_send	24	static
+../bsw/mcal/can/mcal_can.c:52:21:can_receive	8	static
+../bsw/mcal/can/mcal_can.c:57:9:can_rx_available	8	static
+../bsw/mcal/can/mcal_can.c:61:6:can_process_next	8	static

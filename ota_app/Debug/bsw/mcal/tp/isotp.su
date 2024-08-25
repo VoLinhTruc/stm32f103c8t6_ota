@@ -1,0 +1,10 @@
+../bsw/mcal/tp/isotp.c:7:6:set_isotp_link	16	static
+../bsw/mcal/tp/isotp.c:13:6:send_single_frame	48	static
+../bsw/mcal/tp/isotp.c:25:6:send_first_frame	48	static
+../bsw/mcal/tp/isotp.c:39:6:send_multi_frame	56	static
+../bsw/mcal/tp/isotp.c:64:6:send_fc_frame	48	static
+../bsw/mcal/tp/isotp.c:76:6:send_isotp	16	static
+../bsw/mcal/tp/isotp.c:89:6:handle_single_frame	16	static
+../bsw/mcal/tp/isotp.c:94:6:handle_first_frame	16	static
+../bsw/mcal/tp/isotp.c:102:6:handle_consec_frame	16	static
+../bsw/mcal/tp/isotp.c:116:6:isotp_can_recv	16	static

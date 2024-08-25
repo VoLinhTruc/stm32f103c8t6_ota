@@ -1,0 +1,5 @@
+../bsw/utils/circular_buffer.c:46:6:init_buffer	0	static
+../bsw/utils/circular_buffer.c:54:9:buffer_available	0	static
+../bsw/utils/circular_buffer.c:59:11:buffer_front	0	static
+../bsw/utils/circular_buffer.c:69:9:buffer_push	16	static
+../bsw/utils/circular_buffer.c:80:9:buffer_pop	0	static

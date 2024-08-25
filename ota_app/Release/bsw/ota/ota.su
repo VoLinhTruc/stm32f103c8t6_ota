@@ -1,0 +1,4 @@
+../bsw/ota/ota.c:16:6:ota_ini_after_reset	0	static
+../bsw/ota/ota.c:22:6:ota_flashing_begin	0	static
+../bsw/ota/ota.c:28:6:ota_flashing_inprogress	0	static
+../bsw/ota/ota.c:34:6:ota_flashing_end	0	static
