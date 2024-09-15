@@ -1,5 +1,8 @@
-../bsw/ota/ota.c:38:6:ota_flashing_begin	8	static
-../bsw/ota/ota.c:53:6:ota_flashing_inprogress	56	static
-../bsw/ota/ota.c:75:6:ota_flashing_end	8	static
-../bsw/ota/ota.c:83:6:goto_application	0	static
-../bsw/ota/ota.c:23:6:ota_polling	8	static
+../bsw/ota/ota.c:25:10:calculate_crc	16	static
+../bsw/ota/ota.c:43:5:verify_firmware	32	static
+../bsw/ota/ota.c:113:6:ota_flashing_begin	16	static
+../bsw/ota/ota.c:128:6:ota_flashing_inprogress	56	static
+../bsw/ota/ota.c:151:6:ota_flashing_end	8	static
+../bsw/ota/ota.c:162:6:goto_application	0	static
+../bsw/ota/ota.c:70:6:ota_init	56	static
+../bsw/ota/ota.c:95:6:ota_polling	48	static

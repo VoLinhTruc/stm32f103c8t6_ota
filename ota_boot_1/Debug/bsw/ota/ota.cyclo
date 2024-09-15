@@ -1,0 +1,7 @@
+../bsw/ota/ota.c:21:10:calculate_crc	4
+../bsw/ota/ota.c:37:5:verify_firmware	1
+../bsw/ota/ota.c:47:6:ota_init	1
+../bsw/ota/ota.c:72:6:ota_flashing_begin	1
+../bsw/ota/ota.c:85:6:ota_flashing_inprogress	3
+../bsw/ota/ota.c:106:6:ota_flashing_end	1
+../bsw/ota/ota.c:114:6:goto_application	1

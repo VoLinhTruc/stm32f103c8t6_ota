@@ -1,0 +1,6 @@
+../bsw/utils/circular_buffer.c:38:17:buffer_rotate	2
+../bsw/utils/circular_buffer.c:46:6:init_buffer	1
+../bsw/utils/circular_buffer.c:54:9:buffer_available	2
+../bsw/utils/circular_buffer.c:59:11:buffer_front	2
+../bsw/utils/circular_buffer.c:69:9:buffer_push	2
+../bsw/utils/circular_buffer.c:80:9:buffer_pop	2

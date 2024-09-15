@@ -6,6 +6,7 @@
 typedef uint8_t sid_t;
 #define DIAG_SESS_CTL_SID 0x10
 #define ECU_RESET_SID 0x11
+#define WRITE_DATA_BY_ID_SID 0x2E
 #define ROUTINE_CTL_SID 0x31
 #define REQUEST_DOWNLOAD_SID 0x34
 #define TRANSFER_DATA_SID 0x36

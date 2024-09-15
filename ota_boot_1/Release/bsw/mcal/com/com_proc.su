@@ -1,2 +1,2 @@
-../bsw/mcal/com/com_proc.c:12:6:COM_Proc_Init	0	static
-../bsw/mcal/com/com_proc.c:16:6:COM_Proc_1ms	8	static
+../bsw/mcal/com/com_proc.c:13:6:COM_Proc_Init	0	static
+../bsw/mcal/com/com_proc.c:17:6:COM_Proc_1ms	8	static

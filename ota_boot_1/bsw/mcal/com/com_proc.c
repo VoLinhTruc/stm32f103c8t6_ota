@@ -7,7 +7,8 @@
 
 
 #include "com_proc.h"
-#include "ota/ota.h"
+
+extern UART_HandleTypeDef huart2;
 
 void COM_Proc_Init() {
   can_start();
@@ -23,5 +24,4 @@ void COM_Proc_1ms() {
     }
     can_process_next();
   }
-  ota_polling();
 }

@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include "mcal/com/com_proc.h"
 #include "dcm/dcm.h"
+#include "ota/ota.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -104,7 +105,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
   COM_Proc_Init();
   DCM_Proc_Init();
-
   HAL_UART_Transmit(&huart2, "Boot Begin\r\n", sizeof("Boot Begin\r\n"), 1000);
 
   // float set_speed;
@@ -118,7 +118,9 @@ int main(void)
   while (1)
   {
 	  COM_Proc_1ms();
+	  ota_polling();
 	  HAL_Delay(1);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

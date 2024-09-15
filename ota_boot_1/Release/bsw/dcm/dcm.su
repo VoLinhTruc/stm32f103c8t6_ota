@@ -1,7 +1,8 @@
-../bsw/dcm/dcm.c:13:6:DCM_Proc_Init	0	static
-../bsw/dcm/dcm.c:17:13:ECU_reset_Handler	8	static
-../bsw/dcm/dcm.c:24:13:DiagSess_Ctl_Handler	0	static
-../bsw/dcm/dcm.c:27:13:Request_Download_Handler	8	static
-../bsw/dcm/dcm.c:35:13:Transfer_Data_Handler	8	static
-../bsw/dcm/dcm.c:44:13:Transfer_Exit_Handler	8	static
-../bsw/dcm/dcm.c:53:13:Check_Memory_Handler	0	static
+../bsw/dcm/dcm.c:16:6:DCM_Proc_Init	0	static
+../bsw/dcm/dcm.c:20:13:ECU_reset_Handler	8	static
+../bsw/dcm/dcm.c:26:13:Write_Data_By_ID_Handler	24	static
+../bsw/dcm/dcm.c:60:13:DiagSess_Ctl_Handler	0	static
+../bsw/dcm/dcm.c:63:13:Request_Download_Handler	8	static
+../bsw/dcm/dcm.c:71:13:Transfer_Data_Handler	8	static
+../bsw/dcm/dcm.c:80:13:Transfer_Exit_Handler	8	static
+../bsw/dcm/dcm.c:89:13:Check_Memory_Handler	0	static

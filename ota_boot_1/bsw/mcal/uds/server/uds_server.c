@@ -11,11 +11,14 @@
 static uint8_t srv_payload[64];
 static isotp_link_t srv_link;
 
+extern UART_HandleTypeDef huart2;
+
 void tp_recv_handler(uint32_t id, const uint8_t *data, uint16_t len)
 {
   uint8_t ret;
   uint32_t resp;
   uint32_t resp_len = 0;
+
   switch (data[0])
   {
   case ECU_RESET_SID:
@@ -40,6 +43,21 @@ void tp_recv_handler(uint32_t id, const uint8_t *data, uint16_t len)
       resp_len = 1;
     }
     break;
+
+  case WRITE_DATA_BY_ID_SID:
+	  uint16_t did = ((uint16_t)data[1] << 8) | data[2];
+	  ret = Write_Data_By_ID_Handler(did, &data[3], len - 3);
+		if (ret == POSITIVE_RESPONE) {
+			srv_payload[0] = DIAG_SESS_CTL_SID + 0x40;
+			srv_payload[1] = data[1];
+			srv_payload[2] = data[2];
+		  resp_len = 3;
+		} else {
+			srv_payload[0] = NEGATIVE_RESPONE;
+		  resp_len = 1;
+		}
+    break;
+
   case ROUTINE_CTL_SID:
     if (data[1] == 0xFE && data[2] == 0xF2) {
       ret = Check_Memory_Handler(&resp);
